@@ -1,0 +1,43 @@
+1. 
+    - El operador `==` se utiliza para comparar valores.
+    - El operador `===` compara tanto el valor como el tipo de los operandos estrictamente iguales.
+
+2. 
+    - La declaración `switch` se utiliza para ejecutar *case* de código
+    - Es útil cuando hay múltiples casos posibles y desea ejecutar diferentes *case* de código.
+
+3. 
+    - Un array es una estructura de datos ordenada que almacena una colección de elementos
+    - Un objeto es una colección de valores.
+
+   Ejemplo de un array:
+   
+   var frutas = ["manzana", "naranja", "plátano"];
+   
+   Ejemplo de un objeto:
+   
+   var people = { nombre: "Juan", edad: 30, ciudad: "Madrid" };
+   
+
+4. 
+    - El operador ternario, es una forma abreviada de escribir una instrucción  `condicion ? expr1 : expr2`, `if...else`.
+    - Se evalúa la condición, si es verdadera, se devuelve la primer instruccion, de lo contrario se devuelve la segunda intruccion o concatenacion de if.
+
+   Ejemplo:
+   
+   var edad = 20;
+   var status = if(old >= 18)
+    { console.log("viejo")
+    } console.log("niño");
+   
+5.
+   - Los operadores de comparación se utilizan para comparar dos o mas valores.
+   - `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`, entre otros.
+
+   Ejemplos:
+   
+   var x = 5;
+   var y = 10;
+
+   console.log(x > y); //compara si la variable es mayor a la segunda variable, devuelve falso ya que 5 no es mayor a 10
+   console.log(x === "5"); // compara si la variable es igual tanto en tipo de dato y numero, devuelve un falso por que la variable x es un string y la y es un int.
