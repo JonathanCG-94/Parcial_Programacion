@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ejercicio6" : "node ejercicio6/ejercicio6.js",
     "ejercicio7" : "node ejercicio7/ejercicio7.js",
-    "ejercicio8" : "node ejercicio8/ejercicio8.js"
+    "ejercicio8" : "node ejercicio8/ejercicio8.js",
+    "ejercicio9" : "node ejercicio9/ejercicio9.js",
+    "ejercicio10" : "node ejercicio10/ejercicio10.js"
 
   },
   "keywords": [],
